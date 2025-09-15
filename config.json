@@ -1,0 +1,51 @@
+{
+  "system": {
+    "platform": "windows",
+    "architecture": "AMD64",
+    "python_version": "3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]",
+    "log_path": "D:\\MyUser\\HKUSTGZ\\Competition\\CADC\\ReleaseBomb\\bomb_release.log",
+    "pid_file": "D:\\MyUser\\HKUSTGZ\\Competition\\CADC\\ReleaseBomb\\bomb_release.pid"
+  },
+  "mavlink_settings": {
+    "available_connections": [
+      "udp:127.0.0.1:14550",
+      "COM1",
+      "COM2",
+      "COM3",
+      "COM4",
+      "COM5",
+      "COM6",
+      "COM7",
+      "COM8",
+      "COM9",
+      "COM10",
+      "COM11",
+      "COM12",
+      "COM13",
+      "COM14",
+      "COM15",
+      "COM16",
+      "COM17",
+      "COM18",
+      "COM19",
+      "COM20"
+    ],
+    "default_connection": "udp:127.0.0.1:14550",
+    "connection_timeout": 10,
+    "message_timeout": 5,
+    "auto_reconnect": true,
+    "reconnect_interval": 5
+  },
+  "calculation_settings": {
+    "max_target_distance": 50000,
+    "min_release_height": 50,
+    "max_flight_time": 60,
+    "convergence_tolerance": 1e-06,
+    "max_iterations": 1000
+  },
+  "performance": {
+    "enable_optimization": true,
+    "use_fast_math": true,
+    "low_memory_mode": false
+  }
+}

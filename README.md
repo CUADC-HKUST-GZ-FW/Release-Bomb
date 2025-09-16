@@ -12,7 +12,7 @@
 
 ## 💣 投弹命令行控制
 - **文件地址**： home/jetson/program/Release-Bomb-main
-- **命令行指令**：`python3 servo_control.py XXXX`（XXXX为1300-1900之间整数，1350为锁死，1900为打开）
+- **命令行指令**：`python3 servo-control.py XXXX`（XXXX为1300-1900之间整数，1350为锁死，1900为打开）
 
 ## 📋 系统要求
 
